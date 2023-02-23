@@ -1,0 +1,5 @@
+{
+  "imports": {
+    "@deno-publish-example/sample-deno-publishable-lib": "./packages/sample-deno-publishable-lib/src/mod.ts"
+  }
+}

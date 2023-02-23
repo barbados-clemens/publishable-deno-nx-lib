@@ -23,5 +23,6 @@
   "workspaceLayout": {
     "appsDir": "packages",
     "libsDir": "packages"
-  }
+  },
+  "plugins": ["@nrwl/deno"]
 }

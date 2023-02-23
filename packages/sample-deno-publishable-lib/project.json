@@ -1,0 +1,24 @@
+{
+  "name": "sample-deno-publishable-lib",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "packages/sample-deno-publishable-lib/src",
+  "projectType": "library",
+  "targets": {
+    "test": {
+      "executor": "@nrwl/deno:test",
+      "outputs": ["coverage/packages/sample-deno-publishable-lib"],
+      "options": {
+        "coverageDirectory": "coverage/packages/sample-deno-publishable-lib",
+        "denoConfig": "packages/sample-deno-publishable-lib/deno.json",
+        "check": "local"
+      }
+    },
+    "lint": {
+      "executor": "@nrwl/deno:lint",
+      "options": {
+        "denoConfig": "packages/sample-deno-publishable-lib/deno.json"
+      }
+    }
+  },
+  "tags": []
+}
