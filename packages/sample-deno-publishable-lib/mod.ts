@@ -1,5 +1,9 @@
-export function hello() {
-  console.log('hello');
+export * from './src/sample.ts';
+/**
+ * entrypoint
+ * */
+function main() {
+  console.log('Nx + Deno 💙');
 }
 
-hello();
+main();
