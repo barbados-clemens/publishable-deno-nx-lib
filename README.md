@@ -15,3 +15,7 @@ Run `npx nx connect-to-nx-cloud` to enable [remote caching](https://nx.app) and 
 ## Further help
 
 Visit the [Nx Documentation](https://nx.dev) to learn more.
+
+## About This Repository
+
+This repository is an Nx monorepo demonstrating how to create and publish a Deno library using the `@nrwl/deno` plugin. It contains a sample publishable Deno library (`sample-deno-publishable-lib`) with a simple `writer` utility function that formats console output. The workspace is set up to showcase the workflow for building and publishing Deno packages within an Nx-managed project structure.
