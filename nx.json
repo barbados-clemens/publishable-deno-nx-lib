@@ -5,7 +5,9 @@
     "default": {
       "runner": "nx/tasks-runners/default",
       "options": {
-        "cacheableOperations": ["build", "lint", "test", "e2e"]
+        "cacheableOperations": ["build", "lint", "test", "e2e"],
+        "accessToken": "MWE5Mjk0NDYtZThjOC00ZTY2LThiMzYtNzgwMDU2ZTZhNjM4fHJlYWQtd3JpdGU=",
+        "nxCloudUrl": "https://eu.nx.app"
       }
     }
   },
@@ -20,9 +22,6 @@
     "production": ["default"],
     "sharedGlobals": []
   },
-  "workspaceLayout": {
-    "appsDir": "packages",
-    "libsDir": "packages"
-  },
+  "workspaceLayout": { "appsDir": "packages", "libsDir": "packages" },
   "plugins": ["@nrwl/deno"]
 }
